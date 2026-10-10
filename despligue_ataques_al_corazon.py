@@ -65,7 +65,7 @@ if st.button("🔍 Predecir", type="primary"):
 
 # Dataframe con los datos ingresados en la interfaz
 datos = [[age, hypertension, heart_disease, ever_married, avg_glucose_level, smoking_status]]
-data_interfaz = pd.DataFrame(datos, columns=['age', 'hypertension', 'heart_disease', 'ever_married', 'avg_glucose_level', 'smoking_status'])
+data = pd.DataFrame(datos, columns=['age', 'hypertension', 'heart_disease', 'ever_married', 'avg_glucose_level', 'smoking_status'])
 
 #Preparación de Datos
 data_preparada=data.copy()
