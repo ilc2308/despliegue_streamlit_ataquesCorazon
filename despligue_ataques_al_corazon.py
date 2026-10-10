@@ -123,5 +123,5 @@ if st.button("🔍 Predecir", type="primary"):
         st.success(f"✅ Resultado Favorable: Riesgo bajo (**{resultado_original}**).")
 
     # Mostramos el DataFrame procesado de forma limpia en Streamlit
-    with st.expander("Ver datos ingresados"):
-        st.dataframe(data)
+    #with st.expander("Ver datos ingresados"):
+        #st.dataframe(data)
